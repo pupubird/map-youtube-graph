@@ -4,10 +4,20 @@ from graph import Graph
 from node import Node
 import json
 
-options = Options()
-options.add_extension('./ublock.crx')
 
-driver = webdriver.Chrome('./chromedriver', options=options)
+UBLOCK_PATH = './ublock.crx'
+CHROME_DRIVER_PATH = './chromedriver'
+CHANNEL_NAME = "Hussein Nasser"
+YOUTUBE_WATCH_SUFFIX = "youtube.com/watch"
+CARD_A_TAG_CSS_CLASS = '.iv-click-target'
+CARD_TITLE_TAG_CSS_CLASS = '.iv-card-primary-link'
+START_LINK = 'https://www.youtube.com/watch?v=6TEwVDNA7bI'
+START_LINK_TITLE = 'Diagnose Your Backend and Improve the Frontend User Experience with DevTools Waterfall (Deep Dive)'
+
+options = Options()
+options.add_extension(UBLOCK_PATH)
+
+driver = webdriver.Chrome(CHROME_DRIVER_PATH, options=options)
 
 start_node = None
 nodes = set()
@@ -19,30 +29,31 @@ def recurse(link, current_node):
         return
     # Expand the graph
     driver.get(link)
-    if "Hussein Nasser" not in driver.page_source:
+    if CHANNEL_NAME not in driver.page_source:
         return
-    suggestions = driver.find_elements_by_css_selector('.iv-click-target')
+    suggestions = driver.find_elements_by_css_selector(CARD_A_TAG_CSS_CLASS)
     print(f"Has {len(suggestions)} amount of peers")
     peers = []
     nodes.add(current_node)
     for suggestion in suggestions:
         link = suggestion.get_attribute('href')
-        title = suggestion.find_element_by_css_selector(
-            '.iv-card-primary-link').get_property('innerText')
+        if YOUTUBE_WATCH_SUFFIX not in link:
+            continue
+        title = suggestion.\
+            find_element_by_css_selector(CARD_TITLE_TAG_CSS_CLASS).\
+            get_property('innerText')
         new_node = Node(link=link, title=title, peers=set([current_node]))
         current_node.peers.add(new_node)
         peers.append(new_node)
 
     for peer in peers:
-        if peer in [n.link for n in nodes]:
+        if peer.link in [n.link for n in nodes]:
             continue
         recurse(peer.link, peer)
 
 
-start_node_link = 'https://www.youtube.com/watch?v=6TEwVDNA7bI'
-start_node_title = 'Diagnose Your Backend and Improve the Frontend User Experience with DevTools Waterfall (Deep Dive)'
-start_node = Node(link=start_node_link, title=start_node_title)
-recurse(start_node_link, start_node, 1)
+start_node = Node(link=START_LINK, title=START_LINK_TITLE)
+recurse(START_LINK, start_node)
 
 driver.close()
 
