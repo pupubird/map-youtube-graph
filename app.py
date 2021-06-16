@@ -11,6 +11,7 @@ CHANNEL_NAME = "Hussein Nasser"
 YOUTUBE_WATCH_SUFFIX = "youtube.com/watch"
 CARD_A_TAG_CSS_CLASS = '.iv-click-target'
 CARD_TITLE_TAG_CSS_CLASS = '.iv-card-primary-link'
+CARD_CHANNEL_NAME_TAG_CSS_CLASS = '.iv-card-meta-info > li:first-child'
 START_LINK = 'https://www.youtube.com/watch?v=6TEwVDNA7bI'
 START_LINK_TITLE = 'Diagnose Your Backend and Improve the Frontend User Experience with DevTools Waterfall (Deep Dive)'
 
@@ -42,6 +43,10 @@ def recurse(link, current_node):
         title = suggestion.\
             find_element_by_css_selector(CARD_TITLE_TAG_CSS_CLASS).\
             get_property('innerText')
+        channel = suggestion.find_element_by_css_selector(
+            CARD_CHANNEL_NAME_TAG_CSS_CLASS).get_property('innerText')
+        if CHANNEL_NAME not in channel:
+            continue
         new_node = Node(link=link, title=title, peers=set([current_node]))
         current_node.peers.add(new_node)
         peers.append(new_node)
