@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Building a Web API with Express and PostgreSQL to Consume from Browser",
+    "link": "https://www.youtube.com/watch?v=0JNq46eFuOM",
+    "peers": [
+      "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    ]
+  },
+  {
+    "title": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
+    "peers": [
+      "https://www.youtube.com/watch?v=NmM9HA2MQGI",
+      "https://www.youtube.com/watch?v=Z3FwixsBE94",
+      "https://www.youtube.com/watch?v=ntytZy3i-Jo",
+      "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "https://www.youtube.com/watch?v=kYhMnw4aJTw",
+      "https://www.youtube.com/watch?v=Vj7W8pI-L6w"
+    ]
+  },
+  {
+    "title": "Fetch API, XMLHTTPRequest replacement",
+    "link": "https://www.youtube.com/watch?v=Vj7W8pI-L6w",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg"
+    ]
+  },
+  {
+    "title": "Secret Key Exchange (Diffie-Hellman) - Computerphile",
+    "link": "https://www.youtube.com/watch?v=NmM9HA2MQGI",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg"
+    ]
+  },
+  {
+    "title": "NginX",
+    "link": "https://www.youtube.com/watch?v=WC2-hNNBWII&list=PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+    "peers": [
+      "https://www.youtube.com/watch?v=bW_BILl7n0Y"
+    ]
+  },
+  {
+    "title": "The OSI Model - Explained by Example",
+    "link": "https://www.youtube.com/watch?v=7IS7gigunyI",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg"
+    ]
+  },
+  {
+    "title": "HTTP",
+    "link": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
+    "peers": [
+      "https://www.youtube.com/watch?v=0JNq46eFuOM",
+      "https://www.youtube.com/watch?v=0OrmKCB0UrQ",
+      "https://www.youtube.com/watch?v=TgZnpp5wJWU",
+      "https://www.youtube.com/redirect?event=infocard&redir_token=QUFFLUhqbDhnLWVLRkZ3SGh5d2FyUTFlZFB4czdJLTBWUXxBQ3Jtc0trMjFNZndENUU0dGR4NGNUNnJ2anUwRUxhd09PQXR2SUwzU3V2WE0xY3o5c29mNldjV3FJdmdvWmJ6VVpYWVVGQm9LMmNDUlc2SUxkc0lDMjR4ZUpCQXJIcmx6VHdZbDl0bGVrUmE1eWc2Mm9NME9zdw&q=https%3A%2F%2Fwww.husseinnasser.com%2Fcourses",
+      "https://www.youtube.com/watch?v=x4E4mbobGEc",
+      "https://www.youtube.com/watch?v=kYhMnw4aJTw"
+    ]
+  },
+  {
+    "title": "Diagnose Your Backend and Improve the Frontend User Experience with DevTools Waterfall (Deep Dive)",
+    "link": "https://www.youtube.com/watch?v=6TEwVDNA7bI",
+    "peers": [
+      "https://www.youtube.com/watch?v=lR1uHVS7I-8",
+      "https://www.youtube.com/watch?v=bW_BILl7n0Y",
+      "https://www.youtube.com/watch?v=kYhMnw4aJTw"
+    ]
+  },
+  {
+    "title": "Why Application-Layer Protocol Negotiation (ALPN) is Critical for HTTP/2 Backends",
+    "link": "https://www.youtube.com/watch?v=lR1uHVS7I-8",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg",
+      "https://www.youtube.com/watch?v=6TEwVDNA7bI",
+      "https://www.youtube.com/watch?v=bW_BILl7n0Y"
+    ]
+  },
+  {
+    "title": "What is the TCP 3-Way Handshake and Why Backend Engineers should understand it",
+    "link": "https://www.youtube.com/watch?v=bW_BILl7n0Y",
+    "peers": [
+      "https://www.youtube.com/watch?v=lR1uHVS7I-8",
+      "https://www.youtube.com/watch?v=WC2-hNNBWII&list=PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-"
+    ]
+  },
+  {
+    "title": "Hyper Text Transfer Protocol Crash Course - HTTP 1.0, 1.1, HTTP/2, HTTP/3",
+    "link": "https://www.youtube.com/watch?v=0OrmKCB0UrQ",
+    "peers": [
+      "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    ]
+  },
+  {
+    "title": "Transport Layer Security 1.3 Explained - TLS Handshake, Key Exchange, TLS Extensions and MITM",
+    "link": "https://www.youtube.com/watch?v=ntytZy3i-Jo",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg"
+    ]
+  },
+  {
+    "title": "Buy now\u00a0",
+    "link": "https://www.youtube.com/redirect?event=infocard&redir_token=QUFFLUhqbDhnLWVLRkZ3SGh5d2FyUTFlZFB4czdJLTBWUXxBQ3Jtc0trMjFNZndENUU0dGR4NGNUNnJ2anUwRUxhd09PQXR2SUwzU3V2WE0xY3o5c29mNldjV3FJdmdvWmJ6VVpYWVVGQm9LMmNDUlc2SUxkc0lDMjR4ZUpCQXJIcmx6VHdZbDl0bGVrUmE1eWc2Mm9NME9zdw&q=https%3A%2F%2Fwww.husseinnasser.com%2Fcourses",
+    "peers": [
+      "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    ]
+  },
+  {
+    "title": "Web Security",
+    "link": "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv",
+    "peers": [
+      "https://www.youtube.com/watch?v=NF1pwjL9-DE",
+      "https://www.youtube.com/watch?v=kYhMnw4aJTw"
+    ]
+  },
+  {
+    "title": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=AlE5X1NlHgg",
+    "peers": [
+      "https://www.youtube.com/watch?v=lR1uHVS7I-8",
+      "https://www.youtube.com/watch?v=Z3FwixsBE94",
+      "https://www.youtube.com/watch?v=NmM9HA2MQGI",
+      "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "https://www.youtube.com/watch?v=ntytZy3i-Jo",
+      "https://www.youtube.com/watch?v=Vj7W8pI-L6w"
+    ]
+  },
+  {
+    "title": "HTTP Strict Transport Security (HSTS) and TLS Stripping Explained",
+    "link": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
+    "peers": [
+      "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
+      "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv",
+      "https://www.youtube.com/watch?v=6TEwVDNA7bI"
+    ]
+  },
+  {
+    "title": "Elliptic Curves - Computerphile",
+    "link": "https://www.youtube.com/watch?v=NF1pwjL9-DE",
+    "peers": [
+      "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv"
+    ]
+  },
+  {
+    "title": "Symmetrical vs asymmetrical Encryption Pros and Cons by Example",
+    "link": "https://www.youtube.com/watch?v=Z3FwixsBE94",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg"
+    ]
+  },
+  {
+    "title": "HTTP Caching with E-Tags -  (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=TgZnpp5wJWU",
+    "peers": [
+      "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    ]
+  },
+  {
+    "title": "What is an HTTP Proxy? (Transparent, HTTP and Service Mesh Proxy examples)",
+    "link": "https://www.youtube.com/watch?v=x4E4mbobGEc",
+    "peers": [
+      "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    ]
+  }
+]
