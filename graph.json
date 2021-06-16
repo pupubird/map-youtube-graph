@@ -1,62 +1,190 @@
 {
   "nodes": [
     {
-      "id": "https://www.youtube.com/watch?v=bW_BILl7n0Y",
-      "name": "What is the TCP 3-Way Handshake and Why Backend Engineers should understand it",
+      "id": "https://www.youtube.com/watch?v=x4E4mbobGEc",
+      "name": "What is an HTTP Proxy? (Transparent, HTTP and Service Mesh Proxy examples)",
       "color": "black",
-      "textHeight": 24
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
-      "name": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
-      "color": "black",
-      "textHeight": 24
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=AlE5X1NlHgg",
-      "name": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
-      "color": "black",
-      "textHeight": 24
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=6TEwVDNA7bI",
-      "name": "Diagnose Your Backend and Improve the Frontend User Experience with DevTools Waterfall (Deep Dive)",
-      "color": "black",
-      "textHeight": 24
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv",
-      "name": "Web Security",
-      "color": "black",
-      "textHeight": 24
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
-      "name": "HTTP",
-      "color": "black",
-      "textHeight": 24
+      "textHeight": 5
     },
     {
       "id": "https://www.youtube.com/watch?v=lR1uHVS7I-8",
       "name": "Why Application-Layer Protocol Negotiation (ALPN) is Critical for HTTP/2 Backends",
       "color": "black",
-      "textHeight": 24
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
+      "name": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=ntytZy3i-Jo",
+      "name": "Transport Layer Security 1.3 Explained - TLS Handshake, Key Exchange, TLS Extensions and MITM",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Vj7W8pI-L6w",
+      "name": "Fetch API, XMLHTTPRequest replacement",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv",
+      "name": "Web Security",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=TgZnpp5wJWU",
+      "name": "HTTP Caching with E-Tags -  (Explained by Example)",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=0JNq46eFuOM",
+      "name": "Building a Web API with Express and PostgreSQL to Consume from Browser",
+      "color": "black",
+      "textHeight": 5
     },
     {
       "id": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
       "name": "HTTP Strict Transport Security (HSTS) and TLS Stripping Explained",
       "color": "black",
-      "textHeight": 24
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "name": "The OSI Model - Explained by Example",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=0OrmKCB0UrQ",
+      "name": "Hyper Text Transfer Protocol Crash Course - HTTP 1.0, 1.1, HTTP/2, HTTP/3",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=bW_BILl7n0Y",
+      "name": "What is the TCP 3-Way Handshake and Why Backend Engineers should understand it",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Z3FwixsBE94",
+      "name": "Symmetrical vs asymmetrical Encryption Pros and Cons by Example",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=AlE5X1NlHgg",
+      "name": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=6TEwVDNA7bI",
+      "name": "Diagnose Your Backend and Improve the Frontend User Experience with DevTools Waterfall (Deep Dive)",
+      "color": "black",
+      "textHeight": 5
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
+      "name": "HTTP",
+      "color": "black",
+      "textHeight": 5
     }
   ],
   "links": [
+    {
+      "source": "https://www.youtube.com/watch?v=x4E4mbobGEc",
+      "target": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=lR1uHVS7I-8",
+      "target": "https://www.youtube.com/watch?v=AlE5X1NlHgg"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=lR1uHVS7I-8",
+      "target": "https://www.youtube.com/watch?v=6TEwVDNA7bI"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=lR1uHVS7I-8",
+      "target": "https://www.youtube.com/watch?v=bW_BILl7n0Y"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
+      "target": "https://www.youtube.com/watch?v=ntytZy3i-Jo"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
+      "target": "https://www.youtube.com/watch?v=Vj7W8pI-L6w"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
+      "target": "https://www.youtube.com/watch?v=kYhMnw4aJTw"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
+      "target": "https://www.youtube.com/watch?v=7IS7gigunyI"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
+      "target": "https://www.youtube.com/watch?v=Z3FwixsBE94"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=ntytZy3i-Jo",
+      "target": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=Vj7W8pI-L6w",
+      "target": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv",
+      "target": "https://www.youtube.com/watch?v=kYhMnw4aJTw"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=TgZnpp5wJWU",
+      "target": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=0JNq46eFuOM",
+      "target": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
+      "target": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
+      "target": "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
+      "target": "https://www.youtube.com/watch?v=6TEwVDNA7bI"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
+      "target": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "target": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=0OrmKCB0UrQ",
+      "target": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    },
     {
       "source": "https://www.youtube.com/watch?v=bW_BILl7n0Y",
       "target": "https://www.youtube.com/watch?v=lR1uHVS7I-8"
     },
     {
-      "source": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
-      "target": "https://www.youtube.com/watch?v=kYhMnw4aJTw"
+      "source": "https://www.youtube.com/watch?v=Z3FwixsBE94",
+      "target": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946"
     },
     {
       "source": "https://www.youtube.com/watch?v=AlE5X1NlHgg",
@@ -75,40 +203,24 @@
       "target": "https://www.youtube.com/watch?v=bW_BILl7n0Y"
     },
     {
-      "source": "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv",
-      "target": "https://www.youtube.com/watch?v=kYhMnw4aJTw"
+      "source": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
+      "target": "https://www.youtube.com/watch?v=TgZnpp5wJWU"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
+      "target": "https://www.youtube.com/watch?v=0JNq46eFuOM"
     },
     {
       "source": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
       "target": "https://www.youtube.com/watch?v=kYhMnw4aJTw"
     },
     {
-      "source": "https://www.youtube.com/watch?v=lR1uHVS7I-8",
-      "target": "https://www.youtube.com/watch?v=bW_BILl7n0Y"
+      "source": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
+      "target": "https://www.youtube.com/watch?v=0OrmKCB0UrQ"
     },
     {
-      "source": "https://www.youtube.com/watch?v=lR1uHVS7I-8",
-      "target": "https://www.youtube.com/watch?v=AlE5X1NlHgg"
-    },
-    {
-      "source": "https://www.youtube.com/watch?v=lR1uHVS7I-8",
-      "target": "https://www.youtube.com/watch?v=6TEwVDNA7bI"
-    },
-    {
-      "source": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
-      "target": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946"
-    },
-    {
-      "source": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
-      "target": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
-    },
-    {
-      "source": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
-      "target": "https://www.youtube.com/watch?v=6TEwVDNA7bI"
-    },
-    {
-      "source": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
-      "target": "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv"
+      "source": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
+      "target": "https://www.youtube.com/watch?v=x4E4mbobGEc"
     }
   ]
 }

@@ -5,7 +5,7 @@ class Graph:
         self.traverse_inorder(self.start_node)
 
     def traverse_inorder(self, node):
-        if node.link in [node.link for node in self.nodes]:
+        if node.link in [n.link for n in self.nodes]:
             return
         self.nodes.add(node)
         for n in node.peers:
@@ -18,7 +18,7 @@ class Graph:
                     "id": node.link,
                     "name": node.title,
                     "color": "black",
-                    "textHeight": 24
+                    "textHeight": 5
                 }
                 for node in self.nodes
             ],

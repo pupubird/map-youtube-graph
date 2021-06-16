@@ -6,3 +6,9 @@ install:
 
 run:
 	@python3 app.py
+
+visualize:
+	@mv graph.json frontend/src/assets/data.json
+	@cd frontend
+	@npm install
+	@npm run watch
