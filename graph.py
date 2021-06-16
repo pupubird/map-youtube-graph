@@ -5,8 +5,6 @@ class Graph:
         self.traverse_inorder(self.start_node)
 
     def traverse_inorder(self, node):
-        print("Traversing", node.link,
-              f"has {len(node.peers)} amount of peers")
         if node.link in [node.link for node in self.nodes]:
             return
         self.nodes.add(node)
