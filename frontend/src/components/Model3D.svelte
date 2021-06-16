@@ -15,11 +15,11 @@
     let counter = 0;
     try {
       let graph = ForceGraph3D();
-      graph.d3Force("charge").strength(-1000);
+      graph.d3Force("charge").strength(-250);
       graph(target)
         .graphData(data)
         .backgroundColor("#E8E9ED")
-        .linkColor(() => "#A8A8A8")
+        .linkColor(() => "#606060")
         .nodeThreeObject((node) => {
           // use a sphere as a drag handle
           const obj = new Mesh(
