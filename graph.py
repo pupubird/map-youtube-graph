@@ -12,8 +12,23 @@ class Graph:
             self.traverse_inorder(n)
 
     def ouput_to_json(self):
-        return [{
-            "title": node.title,
-            "link": node.link,
-            "peers": [p.link for p in node.peers]
-        } for node in self.nodes]
+        data = {
+            "nodes": [
+                {
+                    "id": node.link,
+                    "name": node.title,
+                    "color": "black",
+                    "textHeight": 24
+                }
+                for node in self.nodes
+            ],
+            "links": [
+                {
+                    "source": node.link,
+                    "target": p.link
+                }
+                for node in self.nodes
+                for p in node.peers
+            ]
+        }
+        return data

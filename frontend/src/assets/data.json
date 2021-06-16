@@ -4,49 +4,49 @@
       "id": "https://www.youtube.com/watch?v=bW_BILl7n0Y",
       "name": "What is the TCP 3-Way Handshake and Why Backend Engineers should understand it",
       "color": "black",
-      "textHeight": 24
+      "textHeight": 5
     },
     {
       "id": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
       "name": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
       "color": "black",
-      "textHeight": 24
+      "textHeight": 5
     },
     {
       "id": "https://www.youtube.com/watch?v=AlE5X1NlHgg",
       "name": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
       "color": "black",
-      "textHeight": 24
+      "textHeight": 5
     },
     {
       "id": "https://www.youtube.com/watch?v=6TEwVDNA7bI",
       "name": "Diagnose Your Backend and Improve the Frontend User Experience with DevTools Waterfall (Deep Dive)",
       "color": "black",
-      "textHeight": 24
+      "textHeight": 5
     },
     {
       "id": "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv",
       "name": "Web Security",
       "color": "black",
-      "textHeight": 24
+      "textHeight": 5
     },
     {
       "id": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
       "name": "HTTP",
       "color": "black",
-      "textHeight": 24
+      "textHeight": 5
     },
     {
       "id": "https://www.youtube.com/watch?v=lR1uHVS7I-8",
       "name": "Why Application-Layer Protocol Negotiation (ALPN) is Critical for HTTP/2 Backends",
       "color": "black",
-      "textHeight": 24
+      "textHeight": 5
     },
     {
       "id": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
       "name": "HTTP Strict Transport Security (HSTS) and TLS Stripping Explained",
       "color": "black",
-      "textHeight": 24
+      "textHeight": 5
     }
   ],
   "links": [

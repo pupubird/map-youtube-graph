@@ -24,7 +24,9 @@ start_node = None
 nodes = set()
 
 
-def recurse(link, current_node):
+def recurse(link, current_node, depth):
+    if depth > 2:
+        return
     print("Accessing link", link, end=" ")
     if link == start_node.link and len(start_node.peers) != 0:
         return
@@ -54,11 +56,11 @@ def recurse(link, current_node):
     for peer in peers:
         if peer.link in [n.link for n in nodes]:
             continue
-        recurse(peer.link, peer)
+        recurse(peer.link, peer, depth+1)
 
 
 start_node = Node(link=START_LINK, title=START_LINK_TITLE)
-recurse(START_LINK, start_node)
+recurse(START_LINK, start_node, 1)
 
 driver.close()
 
