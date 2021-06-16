@@ -1,6 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from graph import Graph
 from node import Node
 import json
 
@@ -62,8 +61,23 @@ recurse(START_LINK, start_node)
 
 driver.close()
 
-graph = Graph(start_node=start_node)
-output = graph.ouput_to_json()
-
 with open("graph.json", 'w') as f:
-    f.writelines(json.dumps(output, indent=2))
+    f.writelines(json.dumps({
+        "nodes": [
+            {
+                "id": node.link,
+                "name": node.title,
+                "color": "black",
+                "textHeight": 5
+            }
+            for node in nodes
+        ],
+        "links": [
+            {
+                "source": node.link,
+                "target": p.link
+            }
+            for node in nodes
+            for p in node.peers
+        ]
+    }, indent=2))
