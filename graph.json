@@ -1,7 +1,308 @@
 [
   {
+    "title": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
+    "peers": [
+      "https://www.youtube.com/watch?v=ntytZy3i-Jo",
+      "https://www.youtube.com/watch?v=Vj7W8pI-L6w",
+      "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "https://www.youtube.com/watch?v=kYhMnw4aJTw",
+      "https://www.youtube.com/watch?v=Z3FwixsBE94"
+    ]
+  },
+  {
+    "title": "Stateful vs Stateless Applications (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=nFPzI_Qg3FU",
+    "peers": [
+      "https://www.youtube.com/watch?v=hcw-NjOh8r0&t=1"
+    ]
+  },
+  {
+    "title": "HTTP Strict Transport Security (HSTS) and TLS Stripping Explained",
+    "link": "https://www.youtube.com/watch?v=kYhMnw4aJTw",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946",
+      "https://www.youtube.com/watch?v=6TEwVDNA7bI",
+      "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
+      "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv"
+    ]
+  },
+  {
+    "title": "Load Balancing Tutorial with Python and Nginx",
+    "link": "https://www.youtube.com/watch?v=4xGQS8Pv4io",
+    "peers": [
+      "https://www.youtube.com/watch?v=aKMLgFVxZYk&t=1797"
+    ]
+  },
+  {
+    "title": "Symmetrical vs asymmetrical Encryption Pros and Cons by Example",
+    "link": "https://www.youtube.com/watch?v=Z3FwixsBE94",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946"
+    ]
+  },
+  {
+    "title": "What is an HTTP Proxy? (Transparent, HTTP and Service Mesh Proxy examples)",
+    "link": "https://www.youtube.com/watch?v=x4E4mbobGEc",
+    "peers": [
+      "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    ]
+  },
+  {
+    "title": "What is an HTTP Proxy? (Transparent, HTTP and Service Mesh Proxy examples)",
+    "link": "https://www.youtube.com/watch?v=x4E4mbobGEc&t=2",
+    "peers": [
+      "https://www.youtube.com/watch?v=cp3Ku1XeOn8"
+    ]
+  },
+  {
+    "title": "Public IP vs. Private IP and Port Forwarding (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=92b-jjBURkw",
+    "peers": [
+      "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "https://www.youtube.com/watch?v=ozhe__GdWC8"
+    ]
+  },
+  {
+    "title": "Network Address Translation - NAT Explained",
+    "link": "https://www.youtube.com/watch?v=RG97rvw1eUo",
+    "peers": [
+      "https://www.youtube.com/watch?v=aKMLgFVxZYk&t=1797"
+    ]
+  },
+  {
+    "title": "How HTTP/2 Works, Performance, Pros & Cons and More",
+    "link": "https://www.youtube.com/watch?v=fVKPrDrEwTI",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg",
+      "https://www.youtube.com/watch?v=g7WeY0DZNJ0",
+      "https://www.youtube.com/watch?v=0OrmKCB0UrQ"
+    ]
+  },
+  {
+    "title": "Microservices Explained and their Pros & Cons",
+    "link": "https://www.youtube.com/watch?v=T-m7ZFxeg1A",
+    "peers": [
+      "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "https://www.youtube.com/watch?v=ozhe__GdWC8"
+    ]
+  },
+  {
+    "title": "Building a Web API with Express and PostgreSQL to Consume from Browser",
+    "link": "https://www.youtube.com/watch?v=0JNq46eFuOM",
+    "peers": [
+      "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO"
+    ]
+  },
+  {
+    "title": "Proxy vs. Reverse Proxy (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=ozhe__GdWC8",
+    "peers": [
+      "https://www.youtube.com/watch?v=92b-jjBURkw",
+      "https://www.youtube.com/watch?v=SqqrOspasag",
+      "https://www.youtube.com/watch?v=SqqrOspasag&list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC"
+    ]
+  },
+  {
+    "title": "HTTP",
+    "link": "https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
+    "peers": [
+      "https://www.youtube.com/watch?v=TgZnpp5wJWU",
+      "https://www.youtube.com/watch?v=0JNq46eFuOM",
+      "https://www.youtube.com/watch?v=kYhMnw4aJTw",
+      "https://www.youtube.com/watch?v=0OrmKCB0UrQ",
+      "https://www.youtube.com/watch?v=x4E4mbobGEc"
+    ]
+  },
+  {
+    "title": "Transport Layer Security 1.3 Explained - TLS Handshake, Key Exchange, TLS Extensions and MITM",
+    "link": "https://www.youtube.com/watch?v=ntytZy3i-Jo",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946"
+    ]
+  },
+  {
+    "title": "Proxy vs Reverse Proxy Server Explained",
+    "link": "https://www.youtube.com/watch?v=SqqrOspasag",
+    "peers": [
+      "https://www.youtube.com/watch?v=g7WeY0DZNJ0",
+      "https://www.youtube.com/watch?v=aKMLgFVxZYk",
+      "https://www.youtube.com/watch?v=ozhe__GdWC8"
+    ]
+  },
+  {
+    "title": "Load balancing in Layer 4 vs Layer 7 with HAPROXY Examples",
+    "link": "https://www.youtube.com/watch?v=aKMLgFVxZYk",
+    "peers": [
+      "https://www.youtube.com/watch?v=WC2-hNNBWII&list=PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-"
+    ]
+  },
+  {
+    "title": "Spin up a lightweight Nodejs docker container running your application",
+    "link": "https://www.youtube.com/watch?v=vmSMrQ8Ev9w&t=14",
+    "peers": [
+      "https://www.youtube.com/watch?v=WC2-hNNBWII&list=PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-"
+    ]
+  },
+  {
+    "title": "2 Hours NginX Crash Course + Bonus Content",
+    "link": "https://www.youtube.com/watch?v=hcw-NjOh8r0&t=1",
+    "peers": [
+      "https://www.youtube.com/watch?v=vmSMrQ8Ev9w&t=14",
+      "https://www.youtube.com/watch?v=nFPzI_Qg3FU",
+      "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "https://www.youtube.com/watch?v=WC2-hNNBWII&list=PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+      "https://www.youtube.com/watch?v=aKMLgFVxZYk"
+    ]
+  },
+  {
+    "title": "Proxies",
+    "link": "https://www.youtube.com/watch?v=SqqrOspasag&list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+    "peers": [
+      "https://www.youtube.com/watch?v=aKMLgFVxZYk",
+      "https://www.youtube.com/watch?v=g7WeY0DZNJ0",
+      "https://www.youtube.com/watch?v=ozhe__GdWC8&t=68"
+    ]
+  },
+  {
+    "title": "What is the TCP 3-Way Handshake and Why Backend Engineers should understand it",
+    "link": "https://www.youtube.com/watch?v=bW_BILl7n0Y",
+    "peers": [
+      "https://www.youtube.com/watch?v=WC2-hNNBWII&list=PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+      "https://www.youtube.com/watch?v=6TEwVDNA7bI"
+    ]
+  },
+  {
+    "title": "NginX",
+    "link": "https://www.youtube.com/watch?v=WC2-hNNBWII&list=PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+    "peers": [
+      "https://www.youtube.com/watch?v=aKMLgFVxZYk",
+      "https://www.youtube.com/watch?v=vmSMrQ8Ev9w&t=14",
+      "https://www.youtube.com/watch?v=hcw-NjOh8r0&t=1",
+      "https://www.youtube.com/watch?v=nFPzI_Qg3FU",
+      "https://www.youtube.com/watch?v=bW_BILl7n0Y",
+      "https://www.youtube.com/watch?v=7IS7gigunyI"
+    ]
+  },
+  {
+    "title": "The Bare-Bones of a Service Mesh Proxy",
+    "link": "https://www.youtube.com/watch?v=cp3Ku1XeOn8",
+    "peers": [
+      "https://www.youtube.com/watch?v=x4E4mbobGEc&t=2",
+      "https://www.youtube.com/watch?v=g7WeY0DZNJ0"
+    ]
+  },
+  {
+    "title": "When to use HTTP GET vs POST?",
+    "link": "https://www.youtube.com/watch?v=K8HJ6DN23zI",
+    "peers": [
+      "https://www.youtube.com/watch?v=0OrmKCB0UrQ"
+    ]
+  },
+  {
+    "title": "Why Application-Layer Protocol Negotiation (ALPN) is Critical for HTTP/2 Backends",
+    "link": "https://www.youtube.com/watch?v=lR1uHVS7I-8",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg",
+      "https://www.youtube.com/watch?v=6TEwVDNA7bI",
+      "https://www.youtube.com/watch?v=bW_BILl7n0Y"
+    ]
+  },
+  {
+    "title": "TCP vs UDP Crash Course",
+    "link": "https://www.youtube.com/watch?v=qqRYkcta6IE",
+    "peers": [
+      "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "https://www.youtube.com/watch?v=nFPzI_Qg3FU",
+      "https://www.youtube.com/watch?v=0OrmKCB0UrQ"
+    ]
+  },
+  {
+    "title": "HTTP Caching with E-Tags -  (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=TgZnpp5wJWU",
+    "peers": [
+      "https://www.youtube.com/watch?v=0OrmKCB0UrQ"
+    ]
+  },
+  {
+    "title": "Sidecar Proxy Pros & Cons (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=g7WeY0DZNJ0",
+    "peers": [
+      "https://www.youtube.com/watch?v=fVKPrDrEwTI",
+      "https://www.youtube.com/watch?v=aKMLgFVxZYk&t=1797",
+      "https://www.youtube.com/watch?v=SqqrOspasag",
+      "https://www.youtube.com/watch?v=ozhe__GdWC8&t=68",
+      "https://www.youtube.com/watch?v=cp3Ku1XeOn8"
+    ]
+  },
+  {
+    "title": "Load balancing in Layer 4 vs Layer 7 with HAPROXY Examples",
+    "link": "https://www.youtube.com/watch?v=aKMLgFVxZYk&t=1797",
+    "peers": [
+      "https://www.youtube.com/watch?v=RG97rvw1eUo",
+      "https://www.youtube.com/watch?v=g7WeY0DZNJ0",
+      "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "https://www.youtube.com/watch?v=4xGQS8Pv4io",
+      "https://www.youtube.com/watch?v=ozhe__GdWC8"
+    ]
+  },
+  {
+    "title": "Fetch API, XMLHTTPRequest replacement",
+    "link": "https://www.youtube.com/watch?v=Vj7W8pI-L6w",
+    "peers": [
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg&t=946"
+    ]
+  },
+  {
+    "title": "Web Security",
+    "link": "https://www.youtube.com/watch?v=64geP_LAZ5U&list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv",
+    "peers": [
+      "https://www.youtube.com/watch?v=kYhMnw4aJTw"
+    ]
+  },
+  {
+    "title": "Proxy vs. Reverse Proxy (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=ozhe__GdWC8&t=68",
+    "peers": [
+      "https://www.youtube.com/watch?v=SqqrOspasag&list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+      "https://www.youtube.com/watch?v=g7WeY0DZNJ0",
+      "https://www.youtube.com/watch?v=SqqrOspasag"
+    ]
+  },
+  {
+    "title": "Hyper Text Transfer Protocol Crash Course - HTTP 1.0, 1.1, HTTP/2, HTTP/3",
+    "link": "https://www.youtube.com/watch?v=0OrmKCB0UrQ",
+    "peers": [
+      "https://www.youtube.com/watch?v=qqRYkcta6IE",
+      "https://www.youtube.com/watch?v=fVKPrDrEwTI",
+      "https://www.youtube.com/watch?v=TgZnpp5wJWU",
+      "https://www.youtube.com/watch?v=AlE5X1NlHgg",
+      "https://www.youtube.com/watch?v=K8HJ6DN23zI"
+    ]
+  },
+  {
+    "title": "The OSI Model - Explained by Example",
+    "link": "https://www.youtube.com/watch?v=7IS7gigunyI",
+    "peers": [
+      "https://www.youtube.com/watch?v=92b-jjBURkw",
+      "https://www.youtube.com/watch?v=hcw-NjOh8r0&t=1",
+      "https://www.youtube.com/watch?v=T-m7ZFxeg1A"
+    ]
+  },
+  {
+    "title": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
+    "link": "https://www.youtube.com/watch?v=AlE5X1NlHgg",
+    "peers": [
+      "https://www.youtube.com/watch?v=fVKPrDrEwTI"
+    ]
+  },
+  {
     "title": "Diagnose Your Backend and Improve the Frontend User Experience with DevTools Waterfall (Deep Dive)",
     "link": "https://www.youtube.com/watch?v=6TEwVDNA7bI",
-    "peers": []
+    "peers": [
+      "https://www.youtube.com/watch?v=bW_BILl7n0Y",
+      "https://www.youtube.com/watch?v=kYhMnw4aJTw",
+      "https://www.youtube.com/watch?v=lR1uHVS7I-8"
+    ]
   }
 ]
