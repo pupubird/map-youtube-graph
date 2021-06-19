@@ -1,6 +1,6 @@
 GRAPH_FILE = ./graph.json
 
-.PHONY: install
+.PHONY: install run visualize
 install:
 	@pip3 install pip-tools autopep8 pylint
 	@pip-compile

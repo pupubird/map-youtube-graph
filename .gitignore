@@ -4,5 +4,4 @@ requirements.txt
 __pycache__
 .DS_Store
 chromedriver
-ublock.crx
 node_modules
