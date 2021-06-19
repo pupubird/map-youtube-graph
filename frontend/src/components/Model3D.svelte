@@ -23,7 +23,7 @@
         .nodeThreeObject((node) => {
           // use a sphere as a drag handle
           const obj = new Mesh(
-            new SphereGeometry(1),
+            new SphereGeometry(2),
             new MeshBasicMaterial({
               depthWrite: false,
               transparent: true,
