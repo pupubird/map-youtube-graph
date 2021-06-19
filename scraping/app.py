@@ -24,11 +24,14 @@ nodes = set()
 
 
 def recurse(link, current_node):
+    """A recursion to build all the nodes with peers"""
     print("Accessing link", link, end=" ")
+    # If self-referencing is happening, ignore this node
     if link == start_node.link and len(start_node.peers) != 0:
         return
     # Expand the graph
     driver.get(link)
+    # Only scrape this channel videos
     if CHANNEL_NAME not in driver.page_source:
         return
     suggestions = driver.find_elements_by_css_selector(CARD_A_TAG_CSS_CLASS)
@@ -37,6 +40,7 @@ def recurse(link, current_node):
     nodes.add(current_node)
     for suggestion in suggestions:
         link = suggestion.get_attribute('href')
+        # Some urls might not necessarily be a youtube video, catching edge cases
         if YOUTUBE_WATCH_SUFFIX not in link:
             continue
         title = suggestion.\
@@ -46,6 +50,7 @@ def recurse(link, current_node):
             CARD_CHANNEL_NAME_TAG_CSS_CLASS).get_property('innerText')
         if CHANNEL_NAME not in channel:
             continue
+        # Build new node and add current node as peer
         new_node = Node(link=link, title=title, peers=set([current_node]))
         current_node.peers.add(new_node)
         peers.append(new_node)
@@ -53,6 +58,7 @@ def recurse(link, current_node):
     for peer in peers:
         if peer.link in [n.link for n in nodes]:
             continue
+        # Call this recursion on each new built node
         recurse(peer.link, peer)
 
 
