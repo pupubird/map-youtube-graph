@@ -4,8 +4,8 @@ from node import Node
 import json
 
 
-UBLOCK_PATH = './ublock.crx'
-CHROME_DRIVER_PATH = './chromedriver'
+UBLOCK_PATH = './scraping/ublock.crx'
+CHROME_DRIVER_PATH = './scraping/chromedriver'
 CHANNEL_NAME = "Hussein Nasser"
 YOUTUBE_WATCH_SUFFIX = "youtube.com/watch"
 CARD_A_TAG_CSS_CLASS = '.iv-click-target'

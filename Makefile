@@ -1,4 +1,4 @@
-GRAPH_FILE = ./scraping/graph.json
+GRAPH_FILE = ./graph.json
 
 .PHONY: install
 install:
@@ -10,10 +10,10 @@ run:
 	@python3 scraping/app.py
 
 visualize:
-ifeq ($(shell test -e $(GRAPH_FILE) && echo -n yes),yes)
+ifneq ($(shell test -e $(GRAPH_FILE) && echo -n yes),yes)
 		$(MAKE) run
 endif
-	@cp scraping/graph.json frontend/src/assets/data.json
+	@cp graph.json frontend/src/assets/data.json
 	@cd frontend
 	@npm install --prefix ./frontend
 	@npm run watch --prefix ./frontend
